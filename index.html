@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abinaya S – Full Stack Developer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav><a href="#top">Abinaya S</a><div><a href="#work">Projects</a><a href="#path">Experience</a><a href="#stack">Skills</a><a href="#contact">Contact</a><button id="theme" type="button">Theme</button></div></nav>
+
+<header class="hero" id="top">
+<div>
+<h1>Hi, I'm Abinaya. I build full-stack apps.</h1>
+<p>I'm Abinaya, a final-year CSE student (CGPA 9.10) who ships full-stack products with React, Node.js and MongoDB, from dashboards with ML features to a tracker you can embed on any site. I'm looking for a Full Stack or Frontend internship.</p>
+<div class="ask" role="group" aria-label="Ask me">
+<button type="button" data-k="0" class="on">What have you built?</button><button type="button" data-k="1">Where have you worked?</button><button type="button" data-k="2">What is your stack?</button><button type="button" data-k="3">Why should we hire you?</button>
+</div>
+<p id="ans" class="ans" aria-live="polite"></p>
+<div class="btns"><a class="btn" href="#work">See my projects</a><a class="btn alt" href="mailto:sanjayabinaya9@gmail.com">Email me</a></div>
+</div>
+</header>
+</div>
+
+<section id="work"><div class="wrap">
+<h2>Projects</h2>
+<p class="lead">Three full-stack builds, each with a working frontend, a backend and real data flowing through it.</p>
+<div class="proj">
+<article class="card"><div class="viz" aria-hidden="true"><i style="height:35%"></i><i style="height:60%"></i><i style="height:45%"></i><i style="height:85%"></i><i style="height:70%"></i></div>
+<div><h3>AetherAnalytics</h3><span class="when sans">Final year project</span><p>A business analytics dashboard. Upload a CSV and get live telemetry charts, a behavioural heatmap, an ML playground and a report builder. The React + Vite frontend uses Chart.js; the Express API ingests files with Multer and csv-parser.</p>
+<ul class="tags"><li>React</li><li>Vite</li><li>Chart.js</li><li>Node.js</li><li>Express</li></ul></div></article>
+
+<article class="card"><div class="viz qr" aria-hidden="true"><i></i><i></i><i class="o"></i><i></i><i></i><i></i><i></i><i class="o"></i><i></i><i class="o"></i><i></i><i></i><i class="o"></i><i></i><i></i><i></i><i class="o"></i><i></i><i></i><i></i><i class="o"></i><i></i><i></i><i class="o"></i><i></i><i></i><i></i><i></i><i class="o"></i><i></i><i></i><i class="o"></i><i></i><i></i><i></i><i></i></div>
+<div><h3>MessWise</h3><span class="when sans">Hostel mess demand prediction</span><p>Predicts the next meal's headcount from QR attendance and past data, then recommends how much food to cook to cut waste. Admin and student portals include a QR Digital Mess Pass, attendance history, waste logging and real-time updates over Socket.io.</p>
+<ul class="tags"><li>React</li><li>Node.js</li><li>MongoDB</li><li>Flask</li><li>Socket.io</li></ul></div></article>
+
+<article class="card"><div class="viz" aria-hidden="true" style="--c:var(--mint)"><i style="height:90%"></i><i style="height:25%"></i><i style="height:25%"></i><i style="height:55%"></i><i style="height:25%"></i></div>
+<div><h3>Web Analytics Platform</h3><span class="when sans">Embeddable tracker</span><p>One Node.js server that serves both the API and the dashboard. A single tracker.js script captures visitor events from any website you drop it into.</p>
+<ul class="tags"><li>Node.js</li><li>JavaScript</li><li>sql.js</li></ul></div></article>
+</div>
+<p class="more">Also built: Career Advisor (career recommendations), Smart Garbage Monitoring (IoT-style waste-level tracking) and an AI Advertisement System (AI-driven ad targeting).</p>
+</div></section>
+
+<section id="path"><div class="wrap">
+<h2>Experience</h2>
+<p class="lead">Three internships in two years, moving from static pages to team-based full-stack work.</p>
+<ol class="tl">
+<li><span class="when">June 2026 – July 2026</span><h3>Full Stack Development Intern, ScholarX</h3><p>Built and integrated full-stack features in React and Node.js, using REST APIs and a Git-based team workflow.</p></li>
+<li><span class="when">April 2025 – May 2025</span><h3>Full Stack Development Intern, CADD Expert Solutions</h3><p>Built responsive interfaces and connected them to backend APIs and databases on a live project team.</p></li>
+<li><span class="when">August 2024 – September 2024</span><h3>Web Development Intern, Techsnapie Solutions</h3><p>Designed and developed responsive web pages with HTML, CSS and JavaScript.</p></li>
+</ol>
+</div></section>
+
+<section id="stack"><div class="wrap">
+<h2>Skills</h2>
+<p class="lead">Bar length shows how often I reach for each tool.</p>
+<div class="skills">
+<div class="skill"><h3>Frontend</h3><div><span>React.js</span><em style="width:95px"></em></div><div><span>JavaScript</span><em style="width:95px"></em></div><div><span>HTML / CSS</span><em style="width:90px"></em></div><div><span>Chart.js</span><em style="width:75px"></em></div></div>
+<div class="skill"><h3>Backend and data</h3><div><span>Node / Express</span><em style="width:90px"></em></div><div><span>MongoDB</span><em style="width:80px"></em></div><div><span>SQL / MySQL</span><em style="width:80px"></em></div><div><span>Flask</span><em style="width:60px"></em></div></div>
+<div class="skill"><h3>ML and tools</h3><div><span>Python</span><em style="width:85px"></em></div><div><span>scikit-learn</span><em style="width:65px"></em></div><div><span>Git / GitHub</span><em style="width:85px"></em></div><div><span>Figma, n8n</span><em style="width:55px"></em></div></div>
+</div>
+</div></section>
+
+<section id="learn"><div class="wrap two">
+<div><h2 style="font-size:2rem;margin:0">Education</h2><p><b class="sans">B.E. Computer Science and Engineering</b><br>SNS College of Technology, Coimbatore<br>2023 – 2027, CGPA 9.10</p>
+<h2 style="font-size:1.4rem;margin:22px 0 0">Talks</h2><ul><li>Presented a paper on AI at KGiSL Institute of Technology</li><li>Poster Fest, Anna University Regional Campus, Coimbatore</li></ul></div>
+<div><h2 style="font-size:2rem;margin:0">Certifications</h2><ul><li>Microsoft Azure AI Foundation (2025)</li><li>Oracle Certified Foundation Associate (2025)</li><li>Databricks Generative AI Fundamentals (2025)</li><li>NPTEL Human Computer Interaction (2025)</li><li>Prepinsta: SQL, Cloud Computing, DBMS</li><li>National Cloud Innovation Challenge, 3SVK Hyderabad</li><li>ELECT-ERA'26, Coimbatore Institute of Technology</li></ul></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Let's talk</h2>
+<p class="lead">Open to relocate. Based in Tenkasi, Tamil Nadu.</p>
+<a class="big" href="mailto:sanjayabinaya9@gmail.com">sanjayabinaya9@gmail.com</a>
+<div class="btns" style="margin-top:24px"><a class="btn" href="https://github.com/Abinaya63221">GitHub</a><a class="btn alt" href="https://linkedin.com/in/abinaya-sivakumarr">LinkedIn</a><a class="btn alt" href="tel:+916369391835">+91 63693 91835</a></div>
+</div></section>
+
+<script src="script.js"></script>
+</body>
+</html>
